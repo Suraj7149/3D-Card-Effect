@@ -73,6 +73,8 @@ body{
     position: absolute;
     z-index: -1;
     transition: all 0.5s;
+    -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,1));
+    mask-image: linear-gradient(#000, rgba(0,0,0,0.3));
 }
 
 
